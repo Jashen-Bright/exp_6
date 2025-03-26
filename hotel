@@ -43,6 +43,7 @@ class Hotel:
             print(f"Customer: {booking['customer']}, Room Type: {booking['room_type']}, Status: {booking['status']}")
 
 hotel = Hotel("Sunshine Hotel", 10)
+#fixed context error
 
 hotel.reserve_room("Bright", "Single")
 hotel.reserve_room("Mohith", "Double")
